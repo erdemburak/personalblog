@@ -1,14 +1,10 @@
-import { Route, Routes } from "react-router-dom";
-import MainPage from "./components/MainPage";
+import Content from "./components/content/Content";
 import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (<>
     <Navbar />
-
-    <Routes>
-      <Route path="/" element={<MainPage />} />
-    </Routes>
+    <Content />
   </>);
 }
 

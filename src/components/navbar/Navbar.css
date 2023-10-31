@@ -1,0 +1,26 @@
+.blog-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+ul {
+    list-style-type: none;
+    /* Madde noktalarını kaldırır */
+}
+
+.no-underline {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
