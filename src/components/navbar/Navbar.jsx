@@ -7,7 +7,7 @@ function Navbar() {
     return (<>
         <div className='blog-navbar'>
             <div style={{ display: 'flex', alignItems: 'center' }}>
-                <img src={thiefpng} style={{ width: 'auto', height: '50px' }} />
+                <img src={thiefpng} alt='' style={{ width: 'auto', height: '50px' }} />
                 <span style={{ paddingLeft: '30px', fontSize: '20px' }}>Burak ERDEM</span>
             </div>
             <div>
