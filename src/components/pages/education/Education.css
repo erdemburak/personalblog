@@ -1,0 +1,12 @@
+.education {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    background-color: rgba(31, 32, 26, 0.4);
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    margin-top: 20px;
+
+}

@@ -5,7 +5,7 @@ import Skills from "../pages/Skills";
 import Contact from "../pages/Contact";
 import Projects from "../pages/Projects";
 import Experience from "../pages/Experience";
-import Education from "../pages/Education";
+import Education from "../pages/education/Education.jsx";
 
 function Content() {
     return (<>

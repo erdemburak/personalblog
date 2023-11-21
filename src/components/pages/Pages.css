@@ -8,10 +8,15 @@ h6 {
 }
 
 .main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin: 5%;
-    margin-top: 15%;
+    margin-top: 13%;
+    color: #cccccc;
 }
 
 .summary {
     width: 55%;
+    font-size: 18px;
 }
