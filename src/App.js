@@ -1,10 +1,12 @@
 import Content from "./components/content/Content";
 import Navbar from "./components/navbar/Navbar";
+import Footer from "./components/pages/Footer";
 
 function App() {
   return (<>
     <Navbar />
     <Content />
+    <Footer />
   </>);
 }
 
