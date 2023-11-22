@@ -12,8 +12,9 @@ h6 {
     justify-content: space-around;
     align-items: center;
     margin: 5%;
-    margin-top: 13%;
+    margin-top: 7.3%;
     color: #cccccc;
+    min-height: 65vh;
 }
 
 .summary {
