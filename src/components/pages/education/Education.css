@@ -10,3 +10,26 @@
     margin-top: 20px;
 
 }
+
+.education h3 {
+    color: #a0632e;
+}
+
+/* styles.css */
+.hovered-div {
+    background-color: rgba(31, 32, 26, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.hovered-div:hover {
+    background-color: rgba(31, 32, 26, 0.5);
+}
+
+.courses {
+    font-family: sans-serif;
+    font-size: 26px;
+}
+
+.courses:hover {
+    color: #a0632e;
+}
