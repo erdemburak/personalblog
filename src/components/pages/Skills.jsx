@@ -1,15 +1,16 @@
 import React from 'react'
 import './card/Card.css'
+import './education/Education.css'
 
 function Skills() {
     return (<>
 
         <div style={{ display: 'flex', justifyContent: 'center' }}>
             <div className='deneme'>
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '51%' }} >
-                    <div style={{ fontFamily: 'sans-serif', fontSize: '26px' }}>
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '660px' }} >
+                    <div className='courses'>
                         Back-End
-                        <hr style={{ marginTop: '0' }} />
+                        <hr style={{ marginTop: '0', borderColor: '#a0632e' }} />
                     </div>
                     <div style={{ display: 'flex', flexWrap: 'wrap' }}>
                         <div className='card'>
@@ -42,9 +43,9 @@ function Skills() {
                     </div>
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '49%' }}>
-                    <div style={{ fontFamily: 'sans-serif', fontSize: '26px' }}>
+                    <div className='courses'>
                         Front-End
-                        <hr style={{ marginTop: '0' }} />
+                        <hr style={{ marginTop: '0', borderColor: '#a0632e' }} />
                     </div>
                     <div style={{ display: 'flex', flexWrap: 'wrap', paddingLeft: '110px' }}>
                         <div className='card'>
