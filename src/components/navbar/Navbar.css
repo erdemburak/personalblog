@@ -1,3 +1,8 @@
+.active {
+    background-color: rgba(31, 32, 26, 0.8);
+    color: #a0632e;
+}
+
 .blog-navbar {
     display: flex;
     justify-content: space-between;
@@ -13,6 +18,10 @@ ul {
     /* Madde noktalarını kaldırır */
 }
 
+ul a {
+    color: #DED2D2;
+}
+
 .no-underline {
     text-decoration: none;
     color: inherit;
@@ -20,7 +29,27 @@ ul {
 
 .navbar-links {
     display: flex;
-    gap: 25px;
-    justify-content: space-between;
+    gap: 10px;
     align-items: center;
+}
+
+.navbar-button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-button:hover {
+    background-color: rgba(31, 32, 26, 0.5);
+    color: #fff;
+}
+
+.navbar-button:active {
+    transform: scale(0.95);
+}
+
+.navbar-button:focus {
+    outline: none;
 }
