@@ -5,7 +5,7 @@ import './education/Education.css'
 function Skills() {
     return (<>
 
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', minHeight: '90vh' }}>
             <div className='deneme'>
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '660px' }} >
                     <div className='courses'>
@@ -21,6 +21,9 @@ function Skills() {
                         </div>
                         <div className='card'>
                             Spring Boot
+                        </div>
+                        <div className='card'>
+                            MicroServices
                         </div>
                         <div className='card'>
                             Hibernate
@@ -40,6 +43,9 @@ function Skills() {
                         <div className='card'>
                             JPA
                         </div>
+                        <div className='card'>
+                            ChatGPT
+                        </div>
                     </div>
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '49%' }}>
@@ -47,7 +53,7 @@ function Skills() {
                         Front-End
                         <hr style={{ marginTop: '0', borderColor: '#a0632e' }} />
                     </div>
-                    <div style={{ display: 'flex', flexWrap: 'wrap', paddingLeft: '110px' }}>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', paddingLeft: '77px' }}>
                         <div className='card'>
                             React
                         </div>
@@ -65,6 +71,12 @@ function Skills() {
                         </div>
                         <div className='card'>
                             No-Code
+                        </div>
+                        <div className='card'>
+                            Photoshop
+                        </div>
+                        <div className='card'>
+                            MidJourney
                         </div>
                     </div>
                 </div>
