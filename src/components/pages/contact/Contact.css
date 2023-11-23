@@ -1,0 +1,13 @@
+a,
+li,
+span {
+    color: #cccccc;
+    font-weight: normal;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+span:hover {
+    color: #a0632e;
+    transition: color 1s;
+}
