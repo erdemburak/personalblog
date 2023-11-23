@@ -2,8 +2,8 @@ import React from 'react'
 import { Route, Routes } from "react-router-dom";
 import MainPage from "../pages/MainPage";
 import Skills from "../pages/Skills";
-import Contact from "../pages/Contact";
-import Projects from "../pages/Projects";
+import Contact from "../pages/contact/Contact";
+import Projects from "../pages/projects/Projects";
 import Experience from "../pages/Experience";
 import Education from "../pages/education/Education.jsx";
 
