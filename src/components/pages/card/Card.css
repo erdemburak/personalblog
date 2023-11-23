@@ -5,8 +5,8 @@
 }
 
 :root {
-    --card-height: 150px;
-    --card-width: 200px;
+    --card-height: 110px;
+    --card-width: 145px;
 }
 
 .deneme {
@@ -29,7 +29,7 @@
     align-items: center;
     text-align: center;
     display: flex;
-    font-size: 1.5em;
+    font-size: 1.3em;
     cursor: pointer;
     font-family: cursive;
     margin: 10px;
