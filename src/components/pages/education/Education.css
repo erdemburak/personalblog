@@ -32,4 +32,5 @@
 
 .courses:hover {
     color: #a0632e;
+    transition: color 1s;
 }
