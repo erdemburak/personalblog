@@ -11,3 +11,10 @@ span:hover {
     color: #a0632e;
     transition: color 1s;
 }
+
+.contact-address {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}

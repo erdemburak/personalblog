@@ -7,8 +7,8 @@ function MainPage() {
     return (<>
         <div className='main-content'>
             <div className='summary'>
-                <h2>Burak ERDEM</h2>
-                <h3>Full Stack Software Developer</h3>
+                <h1>Burak ERDEM</h1>
+                <h2>Full Stack Software Developer</h2>
                 <p>
                     Throughout my educational journey, I have developed and continue to enhance myself in various fields. While pursuing my goal of becoming a professional in the field of software development by adopting OOP and SOLID principles, I have also focused on advancing my knowledge and skills in frontend technologies, including JavaScript and React.
                 </p>
