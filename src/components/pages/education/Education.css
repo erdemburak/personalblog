@@ -8,10 +8,12 @@
     border-radius: 10px;
     box-shadow: 0 0 10px #000;
     margin-top: 20px;
+    gap: 20px;
 }
 
 .education p {
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
 .education h3 {
@@ -30,7 +32,7 @@
 
 .courses {
     font-family: sans-serif;
-    font-size: 26px;
+    font-size: 28px;
 }
 
 .courses:hover {

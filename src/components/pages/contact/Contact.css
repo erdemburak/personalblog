@@ -3,7 +3,6 @@ li,
 span {
     color: #cccccc;
     font-weight: normal;
-    font-size: 18px;
     font-family: sans-serif;
 }
 
@@ -16,5 +15,5 @@ span:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 5px;
+    gap: 12px;
 }

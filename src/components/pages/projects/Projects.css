@@ -17,13 +17,15 @@
     border-radius: 10px;
     box-shadow: 0 0 10px #000;
     margin-top: 20px;
+    gap: 20px;
 }
 
 .project p {
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 1.2;
 }
 
-.project h3 {
+.project h4 {
     color: #a0632e;
 }
 

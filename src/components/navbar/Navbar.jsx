@@ -6,12 +6,14 @@ import { Link, NavLink } from 'react-router-dom';
 function Navbar() {
 
     return (<>
-        <div style={{ display: 'flex', justifyContent: 'center', backgroundColor: 'rgba(27, 28, 32, 0.7)', height: '70px' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', backgroundColor: 'rgba(27, 28, 32, 0.6)', height: '75px' }}>
             <div className='blog-navbar' style={{ display: 'flex', alignItems: 'center', width: '90%' }}>
                 <div>
                     <Link to="/" className='no-underline'>
-                        <img src={thiefpng} alt='' style={{ width: 'auto', height: '50px' }} />
-                        <span style={{ paddingLeft: '30px', fontSize: '20px' }}>Burak ERDEM</span>
+                        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                            <img src={thiefpng} alt='' style={{ width: 'auto', height: '50px' }} />
+                            <span style={{ paddingLeft: '30px', fontSize: '20px' }}>Burak ERDEM</span>
+                        </div>
                     </Link>
 
                 </div>
