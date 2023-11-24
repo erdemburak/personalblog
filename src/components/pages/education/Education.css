@@ -31,11 +31,36 @@
 }
 
 .courses {
-    font-family: sans-serif;
     font-size: 28px;
 }
 
 .courses:hover {
     color: #a0632e;
     transition: color 1s;
+}
+
+@media (max-width: 768px) {
+    .education {
+        width: 90%;
+    }
+
+    .education h3 {
+        font-size: 15px;
+    }
+
+    .education p {
+        font-size: 12px;
+    }
+
+    .education h2 {
+        font-size: 20px;
+    }
+
+    .education h4 {
+        font-size: 15px;
+    }
+
+    .education h5 {
+        font-size: 13px;
+    }
 }

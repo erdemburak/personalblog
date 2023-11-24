@@ -60,3 +60,19 @@ p {
     gap: 10px;
     padding-top: 10px;
 }
+
+@media (max-width: 768px) {
+
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .summary {
+        width: 90%;
+        font-size: 12px;
+    }
+}

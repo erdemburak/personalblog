@@ -1,7 +1,7 @@
 .product-page {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     padding: 20px 100px;
     min-height: 90vh;
@@ -40,11 +40,57 @@
 }
 
 .project-name {
-    font-family: sans-serif;
     font-size: 28px;
 }
 
 .project-name:hover {
     color: #a0632e;
     transition: color 1s;
+}
+
+.first-projects {
+    display: flex;
+    gap: 20px;
+}
+
+.second-projects {
+    display: flex;
+    width: 50%;
+}
+
+
+@media (max-width: 768px) {
+    .product-page {
+        padding: 0 20px 20px 20px;
+        width: 100%;
+    }
+
+    .first-projects {
+        gap: 0px;
+        flex-direction: column;
+    }
+
+    .project h3 {
+        font-size: 15px;
+    }
+
+    .project p {
+        font-size: 12px;
+    }
+
+    .project h2 {
+        font-size: 20px;
+    }
+
+    .project h4 {
+        font-size: 15px;
+    }
+
+    .project h5 {
+        font-size: 13px;
+    }
+
+    .second-projects {
+        width: 100%;
+    }
 }

@@ -3,7 +3,6 @@ li,
 span {
     color: #cccccc;
     font-weight: normal;
-    font-family: sans-serif;
 }
 
 span:hover {
@@ -16,4 +15,43 @@ span:hover {
     flex-direction: column;
     justify-content: center;
     gap: 12px;
+}
+
+.contact-page {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.linkedin-size {
+    font-size: 30px;
+}
+
+
+@media (max-width: 768px) {
+
+    .contact-address {
+        font-size: 12px;
+    }
+
+    .linkedin-size {
+        font-size: 20px;
+    }
+
+    .contact-h4 {
+        font-size: 1rem;
+    }
+
+    .contact-page {
+        min-height: 81vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+    }
+
 }

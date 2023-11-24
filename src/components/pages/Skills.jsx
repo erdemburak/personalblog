@@ -8,12 +8,12 @@ function Skills() {
         <div style={{ display: 'flex', justifyContent: 'center' }}>
             <div style={{ display: 'flex', justifyContent: 'center', minHeight: '90vh', maxWidth: '90%' }}>
                 <div className='deneme'>
-                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '747px' }} >
+                    <div className='backend-skills' >
                         <div className='courses'>
                             Back-End
                             <hr style={{ marginTop: '0', borderColor: '#a0632e' }} />
                         </div>
-                        <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+                        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
                             <div className='card'>
                                 Java
                             </div>
@@ -49,12 +49,12 @@ function Skills() {
                             </div>
                         </div>
                     </div>
-                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '747px' }}>
+                    <div className='frontend-skills'>
                         <div className='courses'>
                             Front-End
                             <hr style={{ marginTop: '0', borderColor: '#a0632e' }} />
                         </div>
-                        <div style={{ display: 'flex', flexWrap: 'wrap' }}>
+                        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
                             <div className='card'>
                                 React
                             </div>

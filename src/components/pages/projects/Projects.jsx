@@ -6,7 +6,7 @@ function Projects() {
 
         <div className='product-page'>
 
-            <div style={{ display: 'flex', gap: '20px' }}>
+            <div className='first-projects'>
                 <div className='project hovered-div'>
                     <div>
                         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
@@ -37,7 +37,7 @@ function Projects() {
                     <p><span>Skills: </span> OOP · Spring Boot · React · HTML · Css · H2DB · RESTfull · Aws · Docker</p>
                 </div>
             </div>
-            <div style={{ display: 'flex', width: '50%' }}>
+            <div className='second-projects'>
                 <div className='project hovered-div'>
                     <div>
                         <div style={{ display: 'flex', justifyContent: 'space-between' }}>

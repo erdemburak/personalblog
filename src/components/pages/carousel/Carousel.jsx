@@ -3,6 +3,7 @@ import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
+import './Carousel.css';
 
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
@@ -42,26 +43,28 @@ function Carousel() {
     };
 
     return (<>
-        <Box sx={{ width: '300px', objectFit: 'cover', flexGrow: 1 }}>
-            <AutoPlaySwipeableViews
-                axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
-                index={activeStep}
-                onChangeIndex={handleStepChange}
-                enableMouseEvents
-            >
-                {images.map((step, index) => (
-                    <div key={step.label}>
-                        {Math.abs(activeStep - index) <= 2 ? (
-                            <img
-                                src={step.imgPath}
-                                alt={step.label}
-                                style={{ width: '180px', height: 'auto' }}
-                            />
-                        ) : null}
-                    </div>
-                ))}
-            </AutoPlaySwipeableViews>
-        </Box>
+        <div className='carousel-media'>
+            <Box sx={{ width: '300px', objectFit: 'cover', flexGrow: 1 }}>
+                <AutoPlaySwipeableViews
+                    axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+                    index={activeStep}
+                    onChangeIndex={handleStepChange}
+                    enableMouseEvents
+                >
+                    {images.map((step, index) => (
+                        <div key={step.label}>
+                            {Math.abs(activeStep - index) <= 2 ? (
+                                <img
+                                    src={step.imgPath}
+                                    alt={step.label}
+                                    style={{ width: '180px', height: 'auto' }}
+                                />
+                            ) : null}
+                        </div>
+                    ))}
+                </AutoPlaySwipeableViews>
+            </Box>
+        </div>
 
     </>)
 }
