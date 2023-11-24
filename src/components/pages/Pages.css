@@ -7,6 +7,10 @@ h6 {
     margin: 0;
 }
 
+h3 {
+    color: #a0632e;
+}
+
 .main-content {
     display: flex;
     justify-content: space-around;
