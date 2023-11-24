@@ -32,7 +32,6 @@ function Navbar() {
                     <div>
                         <div className='menu-toggle' onClick={toggleMenu}>
                             <i className="fa-solid fa-bars fa-lg" />
-
                         </div>
                         <ul className={`navbar-links ${menuOpen ? 'active' : ''}`}>
                             <li><NavLink to="/" className='navbar-button' onClick={toggleMenu}>About</NavLink></li>

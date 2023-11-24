@@ -81,12 +81,11 @@ ul a {
         top: 75px;
         left: 0;
         width: 100%;
-        background-color: rgba(27, 28, 32, 0.6);
         text-align: center;
     }
 
     .navbar-links.active {
-        background-color: rgba(27, 28, 32, 0.6);
+        background-color: rgba(27, 28, 32, 0.9);
         display: flex;
         gap: 20px;
         padding: 20px;

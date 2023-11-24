@@ -14,7 +14,7 @@ span:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 12px;
+    gap: 14px;
 }
 
 .contact-page {
@@ -23,12 +23,17 @@ span:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 22px;
     gap: 50px;
 
 }
 
 .linkedin-size {
-    font-size: 30px;
+    font-size: 37px;
+}
+
+.contact-h4 {
+    font-size: 2rem;
 }
 
 
