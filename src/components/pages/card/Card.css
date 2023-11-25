@@ -108,11 +108,18 @@ a {
     align-items: center;
 }
 
+.skills-page {
+    display: flex;
+    justify-content: center;
+    min-height: 90vh;
+    max-width: 90%;
+}
+
 @media (max-width: 768px) {
     :root {
         --card-width: 100%;
         /* Kart genişliğini 100% olarak ayarla */
-        --card-height: auto;
+        --card-height: 60px;
         /* Kart yüksekliğini otomatik ayarla */
     }
 
@@ -146,5 +153,54 @@ a {
     a {
         margin-top: 1rem;
         /* Bağlantıların üst kenar boşluğunu ayarla */
+    }
+}
+
+@media (min-width: 1550px) and (max-width: 1741px) {
+    .deneme {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1548px) {
+    .deneme {
+        max-width: 100%;
+    }
+
+    .skills-page {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 885px) and (max-width: 954px) {
+    .deneme {
+        max-width: 100%;
+        gap: 5px;
+    }
+
+    .skills-page {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 884px) {
+    :root {
+        --card-width: 40%;
+        /* Kart genişliğini 100% olarak ayarla */
+        --card-height: 80px;
+        /* Kart yüksekliğini otomatik ayarla */
+    }
+
+    .deneme {
+        max-width: 100%;
+        gap: 5px;
+    }
+
+    .skills-page {
+        max-width: 100%;
+    }
+
+    .card {
+        font-size: 1.3rem;
     }
 }

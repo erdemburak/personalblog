@@ -6,7 +6,7 @@ function Skills() {
     return (<>
 
         <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <div style={{ display: 'flex', justifyContent: 'center', minHeight: '90vh', maxWidth: '90%' }}>
+            <div className='skills-page'>
                 <div className='deneme'>
                     <div className='backend-skills' >
                         <div className='courses'>
