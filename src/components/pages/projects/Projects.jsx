@@ -26,12 +26,12 @@ function Projects() {
                         <div style={{ display: 'flex', justifyContent: 'space-between' }}>
                             <h2>TechCareer Project-Etkinlik</h2>
                         </div>
-                        {/* <a href='/' target='_blank' rel='noreferrer' style={{ margin: '0' }}> */}<h4>Coming Soon</h4>
+                        <a href='http://3.81.31.47' target='_blank' rel='noreferrer' style={{ margin: '0' }}><h4>Project-Link</h4></a>
                     </div>
                     <p>
                         In this project, which we created as a team at the end of the bootcamp, a website was created that lists various events such as theater concerts.
                         I created Back-End Rest services using Java Spring Boot and I dockerized it and published it on Aws EC2 server.<br />
-                        <p><a href='http://51.20.142.51/api/v1/etkinlik/list' target='_blank' rel='noreferrer'><span style={{ color: '#a0632e', fontWeight: 'normal' }}>http://51.20.142.51/api/v1/etkinlik/list</span></a></p>
+                        <p><a href='http://51.20.142.51/api/v1/etkinlik/list' target='_blank' rel='noreferrer'><span style={{ color: '#a0632e', fontWeight: 'normal' }}>BackEnd-Link</span></a></p>
                         The Front-End part of the project was created with React.
                     </p>
                     <p><span>Skills: </span> OOP · Spring Boot · React · HTML · Css · H2DB · RESTfull · Aws · Docker</p>
